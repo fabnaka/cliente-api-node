@@ -1,0 +1,25 @@
+{
+  "name": "genial-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.15.0",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "tsc-init": "^2.1.0",
+    "typeorm": "^0.3.22",
+    "typescript": "^5.8.3"
+  }
+}
